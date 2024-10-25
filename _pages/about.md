@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing) at [Nanyang Technological University (NTU), Singapore](https://www.ntu.edu.sg/), supervised by Prof. [Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html).
+I am a Ph.D. candidate at the [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing), [Nanyang Technological University (NTU), Singapore](https://www.ntu.edu.sg/), under the supervision of [Assoc Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html). My research focuses on AI for Robotics, with a particular interest in learning-based Visual SLAM and Visual Place Recognition (VPR).
 
 News
 ======
