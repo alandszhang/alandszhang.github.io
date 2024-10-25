@@ -4,6 +4,6 @@ collection: talks
 type: "Talk"
 permalink: /talks/greater_bay
 venue: "Greater Bay Area Postgraduate Academic Forum"
-date: 2022-12
+date: 2022-12-24
 location: "Online"
 ---
