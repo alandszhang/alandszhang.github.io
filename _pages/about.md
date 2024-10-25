@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU), Singapore, supervised by Prof. [Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html).
+I am a Ph.D. candidate in [College of Computing and Data Science (CCDS)](https://www.ntu.edu.sg/computing) at [Nanyang Technological University (NTU), Singapore](https://www.ntu.edu.sg/), supervised by Prof. [Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html).
 
 News
 ======
