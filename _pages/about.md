@@ -12,6 +12,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 News
 ======
 [2024-06-30] A paper is accepted by IROS 2024!
+
 [2023-06-22] A paper is accepted by IROS 2023!
 
 For more info
