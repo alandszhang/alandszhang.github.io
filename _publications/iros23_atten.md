@@ -2,7 +2,7 @@
 title: "Training-free attentive-patch selection for visual place recognition"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/iros23_atten
 date: 2023-10-01
 venue: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
 paperurl: 'https://dr.ntu.edu.sg/bitstream/10356/178533/2/IROS_23____Training_Free_Attentive_Patch_Selection_for_Visual_Place_Recognition.pdf'
