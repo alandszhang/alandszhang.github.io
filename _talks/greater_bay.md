@@ -1,5 +1,5 @@
 ---
-title: "Low-cost and Light-weightIndoor Localization System"
+title: "Low-cost and Light-weight Indoor Localization System"
 collection: talks
 type: "Talk"
 permalink: /talks/greater_bay
