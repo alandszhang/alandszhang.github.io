@@ -15,9 +15,6 @@ News
 ======
 - **[2025-03]** Two conference papers are submitted to ICCV 2025. <br />
 - **[2025-03]** A conference paper is submitted to IROS 2025. <br />
+- **[2025-01]** I start part-time teaching the undergraduate course SC3000 Artificial Intelligence at CCDS, NTU. <br />
 - **[2024-06]** A conference paper is accepted to IROS 2024. <br />
 - **[2023-06]** A conference paper is accepted to IROS 2023.
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
