@@ -13,7 +13,8 @@ I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/
 
 News
 ======
-- **[2024-09]** A paper is submitted to ICRA 2025. <br />
+- **[2025-03]** Two papers are submitted to ICCV 2025. <br />
+- **[2025-03]** A paper is submitted to IROS 2025. <br />
 - **[2024-06]** A paper is accepted to IROS 2024. <br />
 - **[2023-06]** A paper is accepted to IROS 2023.
 
