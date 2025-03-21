@@ -13,10 +13,10 @@ I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/
 
 News
 ======
-- **[2025-03]** Two papers are submitted to ICCV 2025. <br />
-- **[2025-03]** A paper is submitted to IROS 2025. <br />
-- **[2024-06]** A paper is accepted to IROS 2024. <br />
-- **[2023-06]** A paper is accepted to IROS 2023.
+- **[2025-03]** Two conference papers are submitted to ICCV 2025. <br />
+- **[2025-03]** A conference paper is submitted to IROS 2025. <br />
+- **[2024-06]** A conference paper is accepted to IROS 2024. <br />
+- **[2023-06]** A conference paper is accepted to IROS 2023.
 
 For more info
 ------
