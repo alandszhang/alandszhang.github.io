@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. candidate at the [CCDS](https://www.ntu.edu.sg/computing), [NTU, Singapore](https://www.ntu.edu.sg/), under the supervision of [Assoc Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html). My research focuses on AI for Robotics, with a particular interest in learning-based Visual SLAM, Feature Extraction, and Visual Place Recognition (VPR).
 
-Before NTU, I earned my M.S. in Electronic Information Engineering (EIE) from [City University of Hong Kong (CityUHK)](https://www.cityu.edu.hk/) in 2019.
+Before NTU, I earned my M.S. in Electronic Information Engineering (EIE) from [City University of Hong Kong (CityUHK)](https://www.cityu.edu.hk/) in 2019, under the supervision of [Prof. So Hing Cheung](https://www.ee.cityu.edu.hk/~hcso/) (IEEE Fellow).
 
 I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/) from 2017 to 2018, and as an embedded software engineer at [RoboMaster](https://www.robomaster.com/en-US) and [DJI](https://www.dji.com/) from 2016 to 2017.
 
