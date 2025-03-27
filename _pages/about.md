@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Zhang Dongshuo (张东烁)"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,10 +13,10 @@ I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/
 
 News
 ======
-- **[2025-03]** Two conference papers are submitted to ICCV 2025. <br />
-- **[2025-03]** A collaborative conference paper is submitted to IROS 2025. <br />
-- **[2025-02]** A collaborative journal paper is submitted to EAAI. <br />
+- **[2025-03]** Two conference papers have been submitted to ICCV 2025. <br />
+- **[2025-03]** A collaborative conference paper has been submitted to IROS 2025. <br />
+- **[2025-02]** A collaborative journal paper has been submitted to EAAI. <br />
 - **[2025-01]** I've started part-time teaching the undergraduate course SC3000 Artificial Intelligence at CCDS, NTU. <br />
-- **[2024-11]** A collaborative journal paper is submitted to TCSVT. <br />
-- **[2024-06]** A conference paper is accepted to IROS 2024. <br />
-- **[2023-06]** A conference paper is accepted to IROS 2023.
+- **[2024-11]** A collaborative journal paper has been submitted to TCSVT. <br />
+- **[2024-06]** A conference paper has been accepted to IROS 2024. <br />
+- **[2023-06]** A conference paper has been accepted to IROS 2023.
