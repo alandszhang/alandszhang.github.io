@@ -19,5 +19,5 @@ News
 - **[2025-01]** I've started part-time teaching the undergraduate course SC3000 Artificial Intelligence at CCDS, NTU. <br />
 - **[2024-11]** A collaborative journal paper has been submitted to TCSVT. <br />
 - **[2024-06]** Our work on [CurricularVPR: Curricular Contrastive Loss for Visual Place Recognition](https://alandszhang.github.io/publication/iros24_curricularvpr) has been accepted to **IROS 2024**. <br />
-- **[2023-06]** Our work on [Training-free attentive-patch selection for visual place recognition](https://alandszhang.github.io/publication/iros23_atten)
+- **[2023-06]** Our work on [Training-free Attentive-patch Selection for Visual Place Recognition](https://alandszhang.github.io/publication/iros23_atten)
  has been accepted to **IROS 2023**.
