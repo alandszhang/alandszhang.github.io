@@ -15,7 +15,6 @@ I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/
 
 News
 ======
-- **[2025-05]** A collaborative conference paper has been submitted to NeurIPS 2025. <br />
 - **[2025-04]** 🎉 Congrats Nanhua! Our collaborative work on [SHAA: Spatial Hybrid Attention Network with Adaptive Cross-Entropy Loss Function for UAV-view Geo-localization](https://github.com/chennanhua001/SHAA) has been accepted to **IEEE T-CSVT**. <br />
 - **[2025-04]** A collaborative journal paper has been submitted to IEEE T-CSVT. <br />
 - **[2025-03]** A conference paper has been submitted to ICCV 2025. <br />
