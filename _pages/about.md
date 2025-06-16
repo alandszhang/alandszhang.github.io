@@ -15,10 +15,10 @@ I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/
 
 News
 ======
+- **[2025-06]** 🎉 Congrats Gao Ye! Our collaborative work on [Motion-Feat: Motion Blur-Aware Local Feature Description for Image Matching]([https://github.com/chennanhua001/SHAA](https://github.com/AndreGao08/Motion-Feat)) has been accepted to **IROS 2025**. <br />
 - **[2025-04]** 🎉 Congrats Nanhua! Our collaborative work on [SHAA: Spatial Hybrid Attention Network with Adaptive Cross-Entropy Loss Function for UAV-view Geo-localization](https://github.com/chennanhua001/SHAA) has been accepted to **IEEE T-CSVT**. <br />
 - **[2025-04]** A collaborative journal paper has been submitted to IEEE T-CSVT. <br />
 - **[2025-03]** A conference paper has been submitted to ICCV 2025. <br />
-- **[2025-03]** A collaborative conference paper has been submitted to IROS 2025. <br />
 - **[2025-02]** A collaborative journal paper has been submitted to EAAI. <br />
 - **[2025-01]** I've started **part-time teaching** the undergraduate course SC3000/CZ3005 Artificial Intelligence at CCDS, NTU. <br />
 - **[2024-06]** 🎉 Our work on [CurricularVPR: Curricular Contrastive Loss for Visual Place Recognition](https://alandszhang.github.io/publication/iros24_curricularvpr) has been accepted to **IROS 2024**. <br />
