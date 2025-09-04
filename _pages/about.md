@@ -15,7 +15,7 @@ I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/
 
 News
 ======
-- **[2025-09]** I've started a new role as **Research Associate** @ HMGICS-NTU-A*STAR Corp Lab. <br />
+- **[2025-09]** I've started a new role as **Research Associate @ HMGICS-NTU-A*STAR Corp Lab**. <br />
 - **[2025-06]** 🎉 Congrats Gao Ye! Our collaborative work on [Motion-Feat: Motion Blur-Aware Local Feature Description for Image Matching](https://github.com/AndreGao08/Motion-Feat) has been accepted to **IROS 2025**. <br />
 - **[2025-04]** 🎉 Congrats Nanhua! Our collaborative work on [SHAA: Spatial Hybrid Attention Network with Adaptive Cross-Entropy Loss Function for UAV-view Geo-localization](https://github.com/chennanhua001/SHAA) has been accepted to **IEEE T-CSVT**. <br />
 - **[2025-01]** I've started **part-time teaching** the undergraduate course SC3000/CZ3005 Artificial Intelligence at CCDS, NTU. <br />
