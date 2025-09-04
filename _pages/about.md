@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as a Research Associate at HMGICS-NTU-A*STAR Corp Lab with [Prof. Kong Wai-Kin Adams](https://personal.ntu.edu.sg/AdamsKong/). I'm also a soon-to-graduate Ph.D. candidate at the [CCDS](https://www.ntu.edu.sg/computing), [NTU, Singapore](https://www.ntu.edu.sg/), under the supervision of [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html). My research focuses on AI for Robotics, with a particular interest in Robot Localization and Perception, Visual Simultaneous Localization and Mapping (SLAM), and Visual Place Recognition (VPR).
+I am currently working as a Research Associate at the HMGICS-NTU-A*STAR Corp Lab with [Prof. Kong Wai-Kin Adams](https://personal.ntu.edu.sg/AdamsKong/). I'm also a soon-to-graduate Ph.D. candidate at the [CCDS](https://www.ntu.edu.sg/computing), [NTU, Singapore](https://www.ntu.edu.sg/), under the supervision of [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html). My research focuses on AI for Robotics, with a particular interest in Robot Localization and Perception, Visual Simultaneous Localization and Mapping (SLAM), and Visual Place Recognition (VPR).
 
 Before NTU, I earned my M.S. in Electronic Information Engineering (EIE) from [City University of Hong Kong (CityUHK)](https://www.cityu.edu.hk/) in 2019, under the supervision of [Prof. So Hing Cheung](https://www.ee.cityu.edu.hk/~hcso/) (IEEE Fellow).
 
