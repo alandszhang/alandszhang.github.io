@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as a Research Associate at the HMGICS-NTU-A*STAR Corp Lab with [Prof. Kong Wai-Kin Adams](https://personal.ntu.edu.sg/AdamsKong/). I'm also a soon-to-graduate Ph.D. candidate at the [CCDS](https://www.ntu.edu.sg/computing), [NTU, Singapore](https://www.ntu.edu.sg/), under the supervision of [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html). My research focuses on AI for Robotics, with a particular interest in Robot Localization and Perception, Visual Simultaneous Localization and Mapping (SLAM), and Visual Place Recognition (VPR).
+I am currently working as a Research Associate at the Hyundai-NTU-A*STAR Corp Lab with [Prof. Kong Wai-Kin Adams](https://personal.ntu.edu.sg/AdamsKong/). I'm also a soon-to-graduate Ph.D. candidate at the [CCDS](https://www.ntu.edu.sg/computing), [NTU, Singapore](https://www.ntu.edu.sg/), under the supervision of [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html). My research focuses on AI for Robotics, with a particular interest in Robot Localization and Perception, Visual Simultaneous Localization and Mapping (SLAM), and Visual Place Recognition (VPR).
 
 Before NTU, I earned my M.S. in Electronic Information Engineering (EIE) from [City University of Hong Kong (CityUHK)](https://www.cityu.edu.hk/) in 2019, under the supervision of [Prof. So Hing Cheung](https://www.ee.cityu.edu.hk/~hcso/) (IEEE Fellow).
 
@@ -15,7 +15,7 @@ I also worked as an algorithm engineer at [CamSense](https://www.camsense.cn/en/
 
 News
 ======
-- **[2025-09]** I've started a new role as **Research Associate @ HMGICS-NTU-A*STAR Corp Lab**. <br />
+- **[2025-09]** I've started a new role as **Research Associate @ Hyundai-NTU-A*STAR Corp Lab**. <br />
 - **[2025-06]** 🎉 Congrats Gao Ye! Our collaborative work on [Motion-Feat: Motion Blur-Aware Local Feature Description for Image Matching](https://github.com/AndreGao08/Motion-Feat) has been accepted to **IROS 2025**. <br />
 - **[2025-04]** 🎉 Congrats Nanhua! Our collaborative work on [SHAA: Spatial Hybrid Attention Network with Adaptive Cross-Entropy Loss Function for UAV-view Geo-localization](https://github.com/chennanhua001/SHAA) has been accepted to **IEEE T-CSVT**. <br />
 - **[2025-01]** I've started **part-time teaching** the undergraduate course SC3000/CZ3005 Artificial Intelligence at CCDS, NTU. <br />
