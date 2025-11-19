@@ -35,10 +35,9 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=LzNDiLYAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # URL
-  semantic         : "https://www.semanticscholar.org/author/Dongshuo-Zhang/2274111684"
+  semantic         : # URL
   pubmed           : # URL
-  researchgate     : "https://www.researchgate.net/profile/Dongshuo-Zhang"
-
+  researchgate     : # URL
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
