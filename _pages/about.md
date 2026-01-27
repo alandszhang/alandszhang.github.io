@@ -11,7 +11,7 @@ I am currently working as a Researcher at the Hyundai-NTU-A*STAR Corporate Lab w
 
 I earned my Ph.D. from [CCDS](https://www.ntu.edu.sg/computing), [NTU, Singapore](https://www.ntu.edu.sg/) in Jan 2026, under the supervision of [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html). My research focuses on AI for Robotics, with a particular interest in Robot Localization and Perception, Visual Simultaneous Localization and Mapping (SLAM), and Visual Place Recognition (VPR).
 
-Before NTU, I earned my M.S. in Electronic Information Engineering (EIE) from [City University of Hong Kong (CityUHK)](https://www.cityu.edu.hk/) in 2019, under the supervision of [Prof. So Hing Cheung](https://www.ee.cityu.edu.hk/~hcso/) (IEEE Fellow).
+Before NTU, I earned my M.S. in Electronic Information Engineering (EIE) from [City University of Hong Kong (CityUHK)](https://www.cityu.edu.hk/) in Oct 2019, under the supervision of [Prof. So Hing Cheung](https://www.ee.cityu.edu.hk/~hcso/) (IEEE Fellow).
 
 I also worked as an algorithm engineer at [CamSense (欢创科技)](https://www.camsense.cn/en/) from 2017 to 2018, and as an embedded software engineer at [RoboMaster](https://www.robomaster.com/en-US), [DJI (大疆创新)](https://www.dji.com/) from 2016 to 2017.
 
