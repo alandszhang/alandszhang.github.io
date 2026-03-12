@@ -15,7 +15,7 @@ I also worked at [CamSense (欢创科技)](https://www.camsense.cn/en/) as an al
 
 News
 ======
-- **[2026-03]** I've joined Sony as an **AI Researcher in Embodied Robotics**. <br />
+- **[2026-03]** Farewell to my five years at NTU. I’m excited to start a new journey at Sony as an **AI Researcher in Embodied Robotics**. <br />
 - **[2026-01]** I've passed my **PhD Oral Defence**. <br />
 - **[2025-09]** I've started a new role as **Research Associate @ Hyundai-NTU-A*STAR Corporate Lab**. <br />
 - **[2025-06]** 🎉 Congrats Gao Ye! Our work on [Motion-Feat: Motion Blur-Aware Local Feature Description for Image Matching](https://github.com/AndreGao08/Motion-Feat) has been accepted to **IROS 2025**. <br />
