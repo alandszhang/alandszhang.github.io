@@ -15,6 +15,7 @@ Previously, I worked at [CamSense (欢创科技)](https://www.camsense.cn/en/) a
 
 News
 ======
+- **[2026-07]** 🎉 Congrats Wenyang! Our work on DriftAD: Visually-Guided Text Drift for Few-Shot Industrial Anomaly Detection has been accepted to **ACMMM 2026**. <br />
 - **[2026-03]** Farewell to my five years at NTU. I’m excited to start a new journey at Sony as an **AI Researcher in Embodied Robotics**. <br />
 - **[2026-01]** I've passed my **PhD Oral Defence**. <br />
 - **[2025-09]** I've started a new role as a **Research Associate @ Hyundai-NTU-A*STAR Corporate Lab**. <br />
