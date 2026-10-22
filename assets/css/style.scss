@@ -1,0 +1,117 @@
+---
+---
+@import "minimal-light";
+
+/* Minimal Light's two-column layout, with local fonts and responsive refinements. */
+:root {
+  --page: #fff;
+  --ink: #48515a;
+  --heading: #043361;
+  --link: #1676a3;
+  --muted: #737d87;
+  --line: #e7ebee;
+  --tint: #f3f7fa;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+body { margin: 0; padding: 0 28px; background: var(--page); color: var(--ink); font: 16px/1.65 Georgia, "Times New Roman", "Songti SC", serif; }
+.wrapper { width: min(100%, 1000px); display: grid; grid-template-columns: 238px minmax(0, 1fr); column-gap: 76px; align-items: start; }
+a { color: var(--link); text-underline-offset: 3px; }
+a:hover { color: var(--heading); text-decoration: underline; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; border-radius: 2px; }
+h1, h2, h3, h4 { color: var(--heading); }
+h1 { font-size: 29px; }
+h2 { font-size: 25px; line-height: 1.25; margin: 34px 0 17px; font-weight: 500; }
+h3 { font-size: 17px; line-height: 1.45; }
+strong { color: var(--ink); font-weight: 600; }
+p { margin-bottom: 17px; }
+.skip-link { position: absolute; left: 16px; top: -100px; padding: 8px 16px; background: var(--page); z-index: 10; }
+.skip-link:focus { top: 10px; }
+header.profile { position: sticky; top: 0; float: none; width: auto; padding: 68px 0 28px; text-align: center; max-height: 100vh; overflow-y: auto; box-sizing: border-box; }
+.profile .image.avatar { display: inline-block; line-height: 0; margin: 0 0 22px; }
+.profile .image.avatar img { padding: 0; width: 152px; height: 152px; object-fit: cover; object-position: 50% 40%; border-radius: 100%; }
+.profile h1 { margin: 0 0 4px; font-size: 28px; }
+.profile h1 a { color: var(--heading); }
+.chinese-name { color: var(--muted); font-family: "Songti SC", Georgia, serif; letter-spacing: 4px; font-size: 18px; margin: 0 0 20px; }
+.profile-role { line-height: 1.65; margin-bottom: 15px; font-size: 17px; }
+.profile-role span { font-size: 15px; }
+.profile-role strong { color: var(--heading); }
+.profile-meta { font-size: 13px; line-height: 1.75; color: var(--muted); margin-bottom: 14px; }
+.email { font: 12px/1.8 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; }
+.profile-links { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 7px; margin-top: 18px; font-size: 13px; }
+.profile-links span { color: var(--muted); }
+.site-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px 16px; margin-top: 25px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; }
+.site-nav a { color: var(--muted); }
+.site-nav a:hover, .site-nav a[aria-current] { color: var(--heading); }
+main.content { min-width: 0; padding: 64px 0 28px; }
+.content > h2:first-child { margin-top: 0; }
+.content > h1:first-child { margin-top: 0; line-height: 1.3; }
+.content > ul { padding-left: 20px; }
+.content > ul li { margin-bottom: 7px; }
+.news-list { list-style: none; padding: 0; margin: 0; }
+.news-list li { display: grid; grid-template-columns: 66px minmax(0, 1fr); gap: 16px; margin-bottom: 13px; }
+.news-list time { padding-top: 3px; font: 12px/1.8 ui-monospace, SFMono-Regular, Consolas, monospace; color: var(--muted); white-space: nowrap; }
+.news-list p { margin: 0; }
+.older-news { margin-top: 13px; }
+.older-news summary { width: fit-content; color: var(--link); cursor: pointer; font-size: 14px; }
+.older-news[open] summary { margin-bottom: 16px; }
+.paper-list { list-style: none; padding: 0; margin: 0 0 20px; }
+.paper { margin: 0; padding: 20px 0 23px; border-bottom: 1px solid var(--line); }
+.paper:first-child { padding-top: 0; }
+.paper .venue-label { display: inline-block; background: var(--tint); color: var(--heading); padding: 2px 8px; font: 11px/1.7 ui-sans-serif, system-ui, sans-serif; letter-spacing: .04em; border-radius: 3px; margin-bottom: 8px; }
+.paper h3 { margin: 0 0 6px; }
+.paper h3 a { color: var(--heading); }
+.paper p { margin: 0 0 5px; font-size: 14px; }
+.paper .venue, .venue { color: var(--muted); font-size: 14px; font-style: italic; }
+.paper-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 11px; }
+.paper-links a, .text-button { padding: 1px 9px; border: 1px solid var(--line); border-radius: 3px; font: 12px/1.8 ui-sans-serif, system-ui, sans-serif; }
+.paper-links a:hover, .text-button:hover { border-color: var(--link); }
+.talk-list { list-style: none; margin: 0; padding: 0; }
+.talk-list li { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 15px; margin-bottom: 20px; }
+.talk-list time { color: var(--muted); font-size: 13px; padding-top: 2px; }
+.talk-list p { color: var(--muted); font-size: 13px; margin: 3px 0 0; }
+.talk-list a { font-weight: 600; }
+.site-footer { border-top: 1px solid var(--line); padding-top: 18px; margin-top: 45px; font-size: 12px; color: var(--muted); }
+.site-footer p { margin-bottom: 0; }
+.back-link { display: inline-block; font-size: 14px; margin-bottom: 28px; }
+.eyebrow { color: var(--muted); font: 12px/1.8 ui-monospace, monospace; margin-bottom: 9px; }
+.page-title { font-size: 29px; line-height: 1.35; margin-bottom: 22px; }
+.citation { font-size: 14px; line-height: 1.7; font-style: normal; border-color: var(--line); margin-bottom: 25px; }
+@media (prefers-color-scheme: dark) {
+  body:not(.light-mode) {
+    --page: #20212b;
+    --ink: #d0d3da;
+    --heading: #8dc9e7;
+    --link: #72bfe7;
+    --muted: #a1a8b7;
+    --line: #383c49;
+    --tint: #2a303f;
+  }
+}
+@media screen and (max-width: 960px) {
+  body { padding: 0 26px; }
+  div.wrapper { width: min(100%, 690px); display: block; margin: 0 auto; }
+  header.profile { position: static; max-height: none; padding: 38px 0 25px; }
+  .profile .image.avatar img { width: 126px; height: 126px; }
+  .profile .image.avatar { margin-bottom: 15px; }
+  .chinese-name { margin-bottom: 13px; }
+  .site-nav { max-width: 360px; margin: 22px auto 0; }
+  main.content { padding-top: 24px; border-top: 1px solid var(--line); }
+}
+@media screen and (max-width: 480px) {
+  body { padding: 0 20px; font-size: 15.5px; }
+  header.profile { padding-top: 30px; }
+  h2 { font-size: 23px; }
+  .news-list li { grid-template-columns: 59px minmax(0, 1fr); gap: 10px; }
+  .news-list time { font-size: 11px; }
+  .talk-list li { grid-template-columns: 63px minmax(0, 1fr); gap: 10px; }
+  .page-title { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media print {
+  body { padding: 0; color: #333; background: white; }
+  div.wrapper { display: block; width: 100%; }
+  header.profile { position: static; padding: 0 0 20px; max-height: none; }
+  .profile .image.avatar, .site-nav, .skip-link { display: none; }
+  main.content { padding: 0; }
+  .paper, .talk-list li { break-inside: avoid; }
+}

@@ -1,0 +1,12 @@
+---
+layout: homepage
+---
+<a class="back-link" href="{{ '/publications/' | relative_url }}">← Publications</a>
+<p class="eyebrow">{{ page.venue_short }} {{ page.date | date: '%Y' }}</p>
+<h1 class="page-title">{{ page.title }}</h1>
+<p>{{ page.authors }}</p>
+<p class="venue">{{ page.venue }} · {{ page.date | date: '%Y' }}</p>
+{% if page.paperurl %}<p><a class="text-button" href="{{ page.paperurl | escape }}">Read PDF ↗</a></p>{% endif %}
+{{ content }}
+{% if page.citation %}<h2>Citation</h2><blockquote class="citation">{{ page.citation }}</blockquote>{% endif %}
+<p>More publications on <a href="{{ site.google_scholar | escape }}">Google Scholar</a>.</p>

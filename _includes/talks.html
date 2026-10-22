@@ -1,0 +1,9 @@
+<ul class="talk-list">
+{% assign talks = site.talks | sort: 'date' | reverse %}
+{% for talk in talks %}
+  <li>
+    <time datetime="{{ talk.date | date: '%Y-%m-%d' }}">{{ talk.date | date: '%b %Y' }}</time>
+    <div><a href="{{ talk.url | relative_url }}">{{ talk.title }}</a><p>{{ talk.venue }} · {{ talk.location }}</p></div>
+  </li>
+{% endfor %}
+</ul>

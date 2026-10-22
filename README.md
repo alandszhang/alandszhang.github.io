@@ -1,75 +1,49 @@
-# Academic Pages
-**Academic Pages is a Github Pages template for academic websites.**
+# Dongshuo Zhang — Minimal Light 学术主页
 
-# Getting Started
+这是从 `alandszhang/alandszhang.github.io` 迁移的完整 Jekyll 源码，基于 [Minimal Light](https://github.com/yaoyao-liu/minimal-light)，保留原站头像、介绍、10 条 News、2 篇论文详情、2 场报告、Google Scholar、GitHub 和邮箱。
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## 修改内容
 
-See more info at https://academicpages.github.io/
+| 文件 | 用途 |
+| --- | --- |
+| `_config.yml` | 姓名、职位、单位、邮箱、头像和学术链接 |
+| `index.md` | 个人介绍和研究方向 |
+| `_data/news.yml` | 新闻动态，按时间倒序排列；前 5 条直接显示，其余可展开 |
+| `_publications/*.md` | 每篇论文的元数据与详情正文 |
+| `_talks/*.md` | 报告信息与正文 |
+| `cv.md` | 在线 CV，根据原站真实经历整理 |
+| `assets/css/style.scss` | 个性化排版、颜色、手机和深色模式 |
+| `assets/img/avatar.png` | 原站头像 |
 
-## Running locally
+新增论文时，复制 `_publications` 中的一篇并修改 `title`、`date`、`authors`、`venue`、`venue_short`、`permalink`。`paperurl`、`code`、`project` 都是可选项，不要填写空链接。独立的 Publications 页面会自动按日期倒序更新；首页不显示 Selected Publications。
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+## 本地运行
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+使用 Ruby 3.1 或兼容的 Ruby 环境：
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-Start by build the container:
-
-```bash
-docker build -t jekyll-site .
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1
 ```
 
-Next, run the container:
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
+访问终端显示的本地网址。无需 npm、远程主题或 Google Fonts。
 
-# Maintenance
+## 应用到现有 GitHub Pages
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+1. 先给旧站创建备份分支，例如 `backup-before-minimal-light`。
+2. 在本地克隆旧仓库，并创建迁移分支 `minimal-light-redesign`。
+3. 清理迁移分支中的旧主题文件（保留 `.git`），把本目录的完整内容放到仓库根目录。请包含 `.gitignore` 等隐藏文件。
+4. 提交并推送迁移分支，在 GitHub 创建 Pull Request，确认内容后合并。
+5. 对使用 GitHub 原生 Jekyll 构建的仓库，在 **Settings → Pages → Build and deployment** 选择 **Deploy from a branch**、`master`、`/(root)`。如仓库使用自定义 Actions 工作流，请先确认它构建仓库根目录中的 Jekyll 源码。
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+不要只覆盖 `_config.yml` 后保留全部旧主题：旧布局、示例文章和集合会干扰新站。不要把预览用的 `_site` 目录作为源码上传。
 
-## Bugfixes and enhancements
+原域名继续是 https://alandszhang.github.io/ ，无需购买域名。
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+## 需要你以后补充的内容
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+- 原站没有真实 CV PDF。现提供在线 CV；准备好 PDF 后，将其放到 `assets/files/cv.pdf`，并启用 `_config.yml` 中的 `cv_pdf`。
+- DriftAD、IROS 2026、Motion-Feat 和 SHAA 的信息先保留在 News；未补造原站缺失的完整论文元数据。
+- 原论文没有配图，因此当前论文列表采用文字排版，未使用其他研究人员的示例图片。
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
-
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+详细迁移记录见 `MIGRATION.md`。模板源码的 CC0 文本在 `LICENSE-MINIMAL-LIGHT`，原 Academic Pages 的 MIT 声明在 `LICENSE-ACADEMICPAGES`；个人内容保持原有权利归属。

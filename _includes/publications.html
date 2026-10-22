@@ -1,0 +1,17 @@
+<ol class="paper-list">
+{% assign papers = site.publications | sort: 'date' | reverse %}
+{% for paper in papers %}
+  <li class="paper">
+    <span class="venue-label">{{ paper.venue_short }} {{ paper.date | date: '%Y' }}</span>
+    <h3><a href="{{ paper.url | relative_url }}">{{ paper.title }}</a></h3>
+    <p class="authors">{{ paper.authors }}</p>
+    <p class="venue">{{ paper.venue }}</p>
+    <div class="paper-links">
+      <a href="{{ paper.url | relative_url }}">Details</a>
+      {% if paper.paperurl %}<a href="{{ paper.paperurl | escape }}">PDF</a>{% endif %}
+      {% if paper.code %}<a href="{{ paper.code | escape }}">Code</a>{% endif %}
+      {% if paper.project %}<a href="{{ paper.project | escape }}">Project</a>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ol>

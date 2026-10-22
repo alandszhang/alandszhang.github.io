@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light{% if site.auto_dark_mode %} dark{% endif %}">
+  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }} | {{ site.affiliation | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="keywords" content="{{ site.keywords | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title | escape }}{% if page.title %} · {{ page.title | escape }}{% endif %}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.avatar | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body class="{% unless site.auto_dark_mode %}light-mode{% endunless %}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="wrapper">
+    <header class="profile">
+      <a class="image avatar" href="{{ '/' | relative_url }}" aria-label="Home"><img src="{{ site.avatar | relative_url }}" width="152" height="152" alt="Portrait of Dongshuo Zhang"></a>
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p class="chinese-name" lang="zh">{{ site.chinese_name }}</p>
+      <p class="profile-role">{{ site.position }}<br><span>{{ site.research_area }}</span><br><strong>{{ site.affiliation }}</strong></p>
+      <p class="profile-meta">{{ site.qualification }}<br>{{ site.location }}</p>
+      <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <div class="profile-links" aria-label="Profile links">
+        <a href="{{ site.google_scholar | escape }}">Google Scholar</a>
+        <span aria-hidden="true">·</span>
+        <a href="{{ site.github_link | escape }}">GitHub</a>
+        <span aria-hidden="true">·</span>
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
+      </div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#about">About</a>
+        <a href="{{ '/' | relative_url }}#news">News</a>
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/talks/' | relative_url }}"{% if page.url == '/talks/' %} aria-current="page"{% endif %}>Talks</a>
+      </nav>
+    </header>
+    <main id="main" class="content" tabindex="-1">
+      {{ content }}
+      <div class="site-footer">
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}.{% if site.enable_footnote %} Built with <a href="https://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/yaoyao-liu/minimal-light">Minimal Light</a>.{% endif %}</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
