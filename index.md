@@ -7,7 +7,7 @@ title: Home
 
 I am a **Research Fellow at [Nanyang Technological University (NTU), Singapore](https://www.ntu.edu.sg/)**. My research focuses on **embodied intelligence and robot perception**, with the goal of enabling robots to understand their surroundings, localize themselves, and act reliably in the physical world.
 
-Before returning to NTU, I was an **AI Researcher in Embodied Robotics at Sony**. Earlier at NTU, I worked at the Hyundai–NTU–A*STAR Corporate Lab with [Prof. Kong Wai-Kin Adams](https://personal.ntu.edu.sg/AdamsKong/) and led the SLAM research group at [HESL, CCDS](https://www.ntu.edu.sg/hesl) under [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html).
+Previously, I was an **AI Researcher in Embodied Robotics at Sony**. I returned to NTU to lay the groundwork for a **robotics startup**. Earlier at NTU, I worked at the Hyundai–NTU–A*STAR Corporate Lab with [Prof. Kong Wai-Kin Adams](https://personal.ntu.edu.sg/AdamsKong/) and led the SLAM research group at [HESL, CCDS](https://www.ntu.edu.sg/hesl) under [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html).
 
 I received my **Ph.D. from NTU in January 2026**, supervised by [Prof. Lam Siew Kei](https://siewkeilam.github.io/ei-research-group/index.html) at [CCDS](https://www.ntu.edu.sg/computing). I earned my **M.S. in Electronic Information Engineering** from [City University of Hong Kong](https://www.cityu.edu.hk/) in October 2019, supervised by [Prof. So Hing Cheung](https://www.ee.cityu.edu.hk/~hcso/) (IEEE Fellow).
 
