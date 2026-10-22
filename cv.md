@@ -22,13 +22,13 @@ permalink: /cv/
 
 ## Industry Experience
 
-- **Algorithm Engineer · CamSense** — 2017–2018.
+- **Algorithm Engineer · [CamSense (欢创科技)](https://www.camsense.cn/en/)** — 2017–2018. Now listed on the Hong Kong Stock Exchange ([06802.HK](https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000317690)).
 - **Embedded Software Engineer · RoboMaster, DJI** — 2016–2017.
 
 ## Teaching
 
 - **SC3000/CZ3005 Artificial Intelligence**, CCDS, NTU — part-time teaching, started January 2025.
 
-## Publications & Talks
+## Publications
 
-[Publications]({{ '/publications/' | relative_url }}) · [Talks]({{ '/talks/' | relative_url }}) · [Google Scholar]({{ site.google_scholar }})
+[Publications]({{ '/publications/' | relative_url }}) · [Google Scholar]({{ site.google_scholar }})

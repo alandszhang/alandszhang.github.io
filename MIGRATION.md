@@ -35,6 +35,9 @@
 
 - 当前已离开 Sony，回到 NTU 任 Research Fellow；同步更新 About Me、侧栏、搜索/分享描述和在线 CV。没有推断具体入职或离职日期。
 - 移除首页 Selected Publications 区块和 All publications 链接，保留独立 Publications 页面及论文详情网址。
+- About Me 按当前工作与研究目标、研究经历、教育背景、产业经历重写，具体研究方向集中放在 Research Interests。
+- 补充 CamSense 已在港交所上市（06802.HK），并同步到 CV。上市信息来源：港交所披露页面（https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000317690）及金杜参与上市项目的公告（https://www.kingandwood.com/hk/en/about-us/media-center/king-wood-advises-on-camsenses-successful-h-share-listing-on-the-main-board-of-the-hong-kong-stock-exchange.html）。
+- 移除首页、导航和 CV 中的 Talks 展示，原报告网址保留兼容。
 
 ## 部署状态
 

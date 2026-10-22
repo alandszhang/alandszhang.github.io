@@ -1,6 +1,6 @@
 # Dongshuo Zhang — Minimal Light 学术主页
 
-这是从 `alandszhang/alandszhang.github.io` 迁移的完整 Jekyll 源码，基于 [Minimal Light](https://github.com/yaoyao-liu/minimal-light)，保留原站头像、介绍、10 条 News、2 篇论文详情、2 场报告、Google Scholar、GitHub 和邮箱。
+这是从 `alandszhang/alandszhang.github.io` 迁移的完整 Jekyll 源码，基于 [Minimal Light](https://github.com/yaoyao-liu/minimal-light)，包含个人介绍、10 条 News、2 篇论文详情、Google Scholar、GitHub 和邮箱。原站 2 场报告的旧网址保留兼容，但首页、导航和 CV 不再展示 Talks。
 
 ## 修改内容
 
